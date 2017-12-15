@@ -1,0 +1,96 @@
+*{margin:0;padding:0}
+ul{list-style: none;}
+a{text-decoration: none;}
+img{border:none;vertical-align: top}
+.clearfix:after{content: "";display: block;clear: both}
+header{width:990px;height:60px;margin:0 auto;padding-left:10px}
+.logo,.navbar{float:left}
+.logo{padding-top:14px}
+.navbar{font-size: 12px;padding-left:24px;padding-top:30px;}
+.navbar li{float:left;padding-right:10px;padding-left:10px;border-right:1px solid #231815}
+.navbar li:first-of-type{padding-left: 0}
+.navbar li:last-of-type{border:none}
+.navbar li a{color:#231815;}
+.tel{float:right;padding-top:28px}
+#s1{font-size: 18px;}
+#s2{font-size: 16px}
+.banner{background: url("../img/bannerbg1.jpg")no-repeat center;}
+.banner .img{width:1000px;margin:0 auto;position: relative}
+.banner #banner1{position: absolute;top:516px;left:370px}
+.banner #banner2{position: absolute;top:728px;left:420px}
+.explore{background: #f4ebb4}
+.explore-content{width:1000px;margin: 0 auto;}
+.explore-content-first{position: relative}
+.explore-content-fifth{position: relative}
+.explore-content-fifth .content{position: absolute;left:52px;top:134px;width: 352px;color:#f15256;font-size: 20px}
+.explore-content-fifth .content2{width:62px;height:36px;position: absolute;left:524px;top:282px;font-size: 14px;color: #fff}
+.explore-content-first #btn-left{position: absolute;right:470px;top:162px}
+.explore-content-first #btn-right{position: absolute;right:34px;top:162px}
+.explore-content-seventh{position: relative}
+.explore-content-seventh #p1{position: absolute;left:82px;top:194px;color:#ffd24e;font-size: 16px}
+.explore-content-seventh #p2{position: absolute;left:244px;top:174px;color:#ffd24e;font-size: 16px}
+.explore-content-seventh #p3{position: absolute;left:438px;top:182px;color:#ffd24e;font-size: 16px}
+.explore-content-seventh .part4{position: absolute;left:616px;top:106px;color:#f15256}
+.explore-content-seventh .part4 h2{font-size: 25px}
+.explore-content-seventh .part4 span{width:360px;display: block;font-size: 18px}
+.explore-content .sidebar{width:150px;height:370px;background: url("../img/aside_03.png")
+;position:fixed;top:120px;left:10px;font-size: 12px;}
+.sidebar ul{padding: 15px 22px 0 34px;text-align: center}
+.sidebar li{line-height:30px;}
+.sidebar li:hover a{color: #e6df85;}
+.sidebar li:first-of-type:hover {color: #e6df85;}
+.sidebar li:first-of-type{line-height:42px;font-size: 18px;}
+.sidebar li:nth-of-type(2){line-height:38px;}
+.sidebar li:nth-of-type(3){line-height:38px;}
+.sidebar li:nth-of-type(8){line-height:41px;}
+.sidebar li:nth-of-type(8) img{vertical-align: middle;margin-right:5px}
+.sidebar li:last-of-type{line-height:41px;}
+.sidebar li:last-of-type img{vertical-align: middle;margin-right:5px}
+.sidebar li a{color:#f7f5e3;font-weight: bold}
+.sidebar .top{padding-left:66px;width:27px;text-align: center;cursor: pointer}
+.sidebar .top img{vertical-align: bottom}
+.video{position: fixed;right:10px;top:120px;
+    width:180px;height:138px;background: url("../img/video.png")no-repeat;}
+.play{position: relative}
+.play img{position: absolute;left:91px;top:84px;cursor: pointer}
+video{display: none;position: fixed;left:50%;top:50%;margin-left:-250px;margin-top:-150px;z-index: 666}
+video.box{display: block}
+/*猜你喜欢*/
+.like{position:fixed;top:500px;right:8px;}
+#likeTitle{width:18px;height:100px;background: #ef5a61;text-align: center;padding:6px;font-size: 14px;color:#fff;font-weight: bold;float:left;}
+#likeContent{float:left;width:188px;height:188px;background: #ffffff;border:1px solid #ef5a61;padding:6px;display: none}
+#likeContent li{overflow: hidden;white-space: nowrap;text-overflow:ellipsis}
+#likeContent li:hover a{color:red;border-bottom: 1px solid red}
+#likeContent li a{font-size: 12px;color: black;}
+.jiemi{height:1002px;background: url("../img/jiemishequ_02.jpg") no-repeat center}
+.jiemi .shiti{width:848px;padding-left:152px;padding-top:540px;margin:0 auto}
+.jiemi .shiti ul,.jiemi .shiti .shiti-content{float:left}
+.jiemi .shiti ul{padding-top:50px}
+.jiemi .shiti li{margin-bottom:5px;text-align: center;width:122px;line-height: 54px;
+    color:#fef6ef;font-size: 18px;cursor: pointer}
+.jiemi .shiti .active{background: url("../img/button2_03.jpg") no-repeat;}
+.jiemi .shiti .btn{background: url("../img/button_03.jpg") no-repeat;}
+.jiemi .shiti .shiti-content{width:452px;height:374px;border:8px solid #217bb4;border-radius: 6px}
+.jiemi .shiti .shiti-content .top{height:64px;background: #e0f3ff}
+.shiti-content .middle{background: #fff;height:190px;padding:20px 52px 30px 64px;line-height: 24px;display: none}
+.shiti-content .hidden{display: block}
+.jiemi .shiti .shiti-content .middle p{font-size: 14px}
+.jiemi .shiti .shiti-content .middle p:first-of-type{font-size: 17px}
+.jiemi .shiti .shiti-content .bottom{height:70px;background: #e8e8e8;line-height: 70px;}
+.jiemi-bottom{height:348px;background: url("../img/jie_02.jpg")no-repeat center}
+.jiemi-bottom ul{width: 640px;margin:0 auto;padding-left: 360px;padding-top: 80px}
+.jiemi-bottom li{float:left;width:112px;height:46px;border-radius: 6px;background: url("../img/button2_03.jpg");text-align:center;line-height: 46px;margin-right:15px;margin-bottom: 16px}
+.jiemi-bottom li.active{background: url("../img/button_03.jpg");}
+.jiemi-bottom li a{font-size: 15px;color:#fffdf4}
+.diqu-title{height:290px;background: url("../img/diqu_02.jpg") no-repeat center}
+.diqu-content{height:237px;background: url("../img/diqu2_02.jpg")}
+.diqu-content .list{list-style: none;width:856px;margin:0 auto;text-align: center;}
+.diqu-content .list li{float:left;background: #059705;width:90px;height:44px;margin-right:14px;margin-bottom: 16px;
+    border:1px solid #0fb50f;line-height: 44px;border-radius:6px }
+.list a{color:#d9ffd9;font-size: 19px}
+.list li:hover{background: #ef5a61;border:1px solid #d91d36}
+#foot{height: 184px;background: #4c4c4b}
+#foot .foot-content{width:750px;margin:0 auto;color:#dbdbdb;font-size: 14px;text-align: center}
+#foot .foot-content p{line-height: 30px;}
+#foot .foot-content p:first-child{padding-top:32px;}
+.mengceng{position: absolute;z-index: 333;width:100%;height: 5512px;background: black;opacity: 0.4;display: none}
